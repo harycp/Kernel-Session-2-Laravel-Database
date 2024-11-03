@@ -10,5 +10,5 @@ php artisan db:seed
 ```
 
 ## Routes 
-/get-color: Contoh penggunaan Query Builder
-/eloquent-example: Contoh penggunaan Eloquent
+#### /get-color: Contoh penggunaan Query Builder
+#### /eloquent-example: Contoh penggunaan Eloquent
