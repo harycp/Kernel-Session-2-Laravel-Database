@@ -23,7 +23,7 @@ class CategoriesController extends Controller
     {
         $category = Category::with(['posts' => function ($query) {
             $query->limit(1);
-        }])->find(2);
+        }])->find(1);
     
         return response()->json($category);
     }
